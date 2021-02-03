@@ -1,0 +1,93 @@
+.header {
+    height: calc(100vh - 0px) !important;
+    min-height: 520px;
+}
+
+.header-video {
+    height: calc(100vh - 0px) !important;
+    min-height: 520px;
+}
+
+.header-overlay {
+    height: calc(100vh - 0px) !important;
+    min-height: 520px;
+}
+
+form {
+    color: #824A97;
+    font-weight: 600;
+}
+
+.container-nav {
+    background-image: linear-gradient(to right, rgb(170, 74, 151), rgb(107, 28, 144)) !important;
+    border-radius: 0 0 20px 20px;
+}
+
+.container-head {
+    background-color: #fff;
+}
+
+.btn-melon {
+    background-color: #EC6460 !important;
+    border-radius: 20px !important;
+    width: 35%;
+    color: #fff !important;
+    padding: 8px 30px !important;
+    margin: 20px 0 30px 0;
+}
+
+h2 {
+    color: #824A97;
+}
+
+#btn-compartir-inv {
+    cursor: pointer;
+}
+
+#btn-compartir-inv:hover {
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+.social-link {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.item-link {
+    width: 20px;
+    padding: 14px 16px;
+    border-radius: 50px;
+}
+
+.cp {
+    background-color: #824A97;
+    margin-right: 20px;
+}
+
+.wp {
+    background-color: #01e676;
+}
+
+.btn-special {
+    background-color: #a786b3 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 6px 30px 6px 30px !important;
+    border-radius: 20px !important;
+}
+
+.input-link {
+    border-radius: 50px;
+    width: 80%;
+    text-align: center;
+    background-color: #f9d3d2;
+    border: 0;
+    padding: 10px 0;
+}
+
+.input-link:focus {
+    border: 0;
+    outline: none;
+}

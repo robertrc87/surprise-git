@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+    .title-principal {
+        font-size: 80px;
+    }
+    #texto-panel {
+        width: 34%;
+    }
+}
+
+@media (max-width: 992px) {
+    #texto-panel {
+        width: 46%;
+    }
+    .btn-pre-video {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 960px) {
+    .title-principal {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-melon {
+        width: 70%;
+    }
+    .btn-morado {
+        width: 70%;
+    }
+    .header {
+        min-height: 395px !important;
+    }
+    .header-video {
+        min-height: 395px !important;
+    }
+    .header-overlay {
+        min-height: 395px !important;
+    }
+    #carousel-fluid {
+        min-height: 440px !important;
+    }
+    #texto-panel {
+        width: 64%;
+    }
+    #container-plantilla {
+        max-width: 100% !important;
+    }
+    .btn-pre-video {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-melon {
+        width: 100%;
+    }
+    .btn-morado {
+        width: 100%;
+    }
+    .header-content .texto p {
+        font-size: 1rem !important;
+    }
+    #texto-panel {
+        width: 74%;
+    }
+    .container-plantilla {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 450px) {
+    #texto-panel {
+        width: 88%;
+    }
+    .container-plantilla {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 360px) {
+    #video-principal {
+        width: 500%;
+    }
+}

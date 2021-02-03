@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Enchanting_Celebrations";
+    src: url("../fonts/enchanting_celebrations/Enchanting-Celebrations.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "amarillo";
+    src: url("../fonts/amarillo/Amarillo.ttf") format('truetype');
+}
+
+.header-content h1 {
+    font-family: "amarillo" !important;
+}
+
+.header {
+    height: calc(100vh - 495px) !important;
+    min-height: 485px !important;
+}
+
+.header-video {
+    height: calc(100vh - 495px) !important;
+    min-height: 485px !important;
+}
+
+.header-overlay {
+    height: calc(100vh - 495px) !important;
+    min-height: 485px !important;
+}
+
+#carousel-fluid {
+    min-height: 315px !important;
+}
+
+#pre-panel {
+    margin: 60px 20px;
+}
+
+.cont-editor {
+    background-color: #824A97;
+    padding: 20px !important;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sub-principal {
+    text-transform: none !important;
+}
+
+input[type=radio] {
+    transform: scale(1.4) !important;
+}
+
+.texto {
+    margin: 12% 0 8% 0;
+}
+
+.nota-up {
+    height: 260px;
+}
+
+.caja-plantilla-principal {
+    background-color: #824A97;
+    padding: 20px 10px 40px 10px;
+    border-radius: 0 0 30px 30px;
+}
+
+.caja-plantilla {
+    background-color: #EC6460;
+    border-radius: 20px;
+    padding: 6px;
+    border: 0;
+}
+
+.caja-plantilla:focus {
+    outline: #EC6460;
+}
+
+.caja-plantilla img {
+    border-radius: 20px;
+    ;
+}
+
+.sec-edicion {
+    height: 90%;
+}
+
+.btn-mor-pop {
+    width: 80% !important;
+}
+
+.btn-mel-pop {
+    width: 90% !important;
+}
+
+.pre-mess {
+    border-radius: 20px;
+    background-color: #824A97;
+    width: 100%;
+    padding: 20px;
+}
+
+::placeholder {
+    color: #824A97;
+}
+
+.disp-float {
+    display: none;
+    transition: 1.5s;
+}
+
+
+/*
+    GENERAL
+*/
+
+.btn-melon {
+    background-color: #EC6460 !important;
+    border-radius: 20px !important;
+    width: 45%;
+    color: #fff !important;
+}
+
+.btn-morado {
+    background-color: #824A97 !important;
+    border-radius: 20px !important;
+    width: 45%;
+    color: #fff !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* CONTROLES DE VIDEO */
+
+.btn-pre-video {
+    width: 80% !important;
+    margin-top: 10px !important;
+}
+
+.video-principal-h {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.video-principal-v {
+    height: 700px !important;
+    width: auto !important;
+}
+
+video {
+    border-radius: 20px !important;
+    vertical-align: middle !important;
+}
+
+
+/* Overlay video */
+
+.video-video {
+    position: relative;
+    display: inline-block;
+}
+
+.video-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.vc-none {
+    visibility: hidden;
+}
+
+.vc-s {
+    visibility: visible !important;
+}
+
+#texto-panel-v {
+    width: 26%;
+    margin: 6% 0;
+    border: 0px;
+    height: 80%;
+    background: transparent;
+    resize: none;
+}
+
+.texto-1-v {
+    font-family: "Enchanting_Celebrations" !important;
+    color: #000 !important;
+    font-size: 30px !important;
+}
+
+.texto-2-v {
+    font-family: 'amarillo' !important;
+    color: #ffebd5 !important;
+    font-size: 20px !important;
+}
+
+.texto-3-v {
+    font-family: 'Lavanderia' !important;
+    color: #fff !important;
+    font-size: 28px !important;
+}
+
+#texto-panel-h {
+    width: 26%;
+    margin: 6% 0;
+    border: 0px;
+    height: 80%;
+    background: transparent;
+    resize: none;
+}
+
+.texto-1-h {
+    font-family: "Enchanting_Celebrations" !important;
+    color: #000 !important;
+    font-size: 30px !important;
+}
+
+.texto-2-h {
+    font-family: 'amarillo' !important;
+    color: #ffebd5 !important;
+    font-size: 20px !important;
+}
+
+.texto-3-h {
+    font-family: 'Lavanderia' !important;
+    color: #fff !important;
+    font-size: 28px !important;
+}

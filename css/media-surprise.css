@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .container-nav img {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-melon {
+        width: 85%;
+    }
+}
